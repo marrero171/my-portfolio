@@ -6,8 +6,15 @@
     <description>Recent content in Home on Francisco Marrero</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 02 Nov 2024 18:20:03 -0400</lastBuildDate>
+    <lastBuildDate>Sat, 02 Nov 2024 23:51:26 -0400</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Video Game Projects</title>
+      <link>http://localhost:1313/projects/video-games/</link>
+      <pubDate>Sat, 02 Nov 2024 23:51:26 -0400</pubDate>
+      <guid>http://localhost:1313/projects/video-games/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://marrero171.itch.io/the-green-planet&#34;&gt;&lt;img src=&#34;http://localhost:1313/images/projects/green_planet_cover.png&#34; alt=&#34;The Green Planet&#34;&gt;&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
     <item>
       <title>About Me</title>
       <link>http://localhost:1313/about-me/</link>

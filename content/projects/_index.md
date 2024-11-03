@@ -1,5 +1,7 @@
 +++
 title = 'Projects'
+draft = true
+type = 'page'
 +++
 
-#Current Projects
+[Video Game Projects](/projects/video-games)
