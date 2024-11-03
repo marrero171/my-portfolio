@@ -6,28 +6,21 @@
     <description>Recent content in Home on Francisco Marrero</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 02 Nov 2024 23:51:26 -0400</lastBuildDate>
+    <lastBuildDate>Sun, 03 Nov 2024 11:02:48 -0400</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About Me</title>
+      <link>http://localhost:1313/about-me/</link>
+      <pubDate>Sun, 03 Nov 2024 11:02:48 -0400</pubDate>
+      <guid>http://localhost:1313/about-me/</guid>
+      <description>&lt;h1 id=&#34;introduction&#34;&gt;Introduction&lt;/h1&gt;&#xA;&lt;p&gt;Hi, I&amp;rsquo;m Francisco Marrero. I have 4 years of experience in game development, having published multiple prototypes over the years and participating in several game jams. I also have 2 years of experience as a Full Stack Developer in the University of Puerto Rico - Arecibo, on which our team made a scheduling system for the PSE (Programa de Servicios Educativos).&lt;/p&gt;&#xA;&lt;p&gt;Game Development has been a passion for me for a long time, and recently I&amp;rsquo;ve been taking steps towards my personal goals while also having fun in the community, and working with other people in the field. These game jams have helped shape my knowledge and has taught me teamwork and leadership during stressful time.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Video Game Projects</title>
       <link>http://localhost:1313/projects/video-games/</link>
       <pubDate>Sat, 02 Nov 2024 23:51:26 -0400</pubDate>
       <guid>http://localhost:1313/projects/video-games/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://marrero171.itch.io/the-green-planet&#34;&gt;&lt;img src=&#34;http://localhost:1313/images/projects/green_planet_cover.png&#34; alt=&#34;The Green Planet&#34;&gt;&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>About Me</title>
-      <link>http://localhost:1313/about-me/</link>
-      <pubDate>Sat, 02 Nov 2024 18:20:03 -0400</pubDate>
-      <guid>http://localhost:1313/about-me/</guid>
-      <description>&lt;h1 id=&#34;introduction&#34;&gt;Introduction&lt;/h1&gt;&#xA;&lt;p&gt;Hi, I&amp;rsquo;m Francisco Marrero. I have 4 years of experience in game development, having published multiple prototypes over the years and participating in several game jams. I also have 2 years of experience as a Fullstack Developer in the University of Puerto Rico - Arecibo, on which our team made a scheduling system for the PSE (Programa de Servicios Educativos).&lt;/p&gt;&#xA;&lt;p&gt;Game Development has been a passion for me for a long time, and recently I&amp;rsquo;ve been taking steps towards my personal goals while also having fun in the community, and working with other people in the field. These game jams have helped shape my knowledge and has taught me teamwork and leadership during stressfull time.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Neovim</title>
-      <link>http://localhost:1313/posts/neovim/</link>
-      <pubDate>Sat, 02 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/neovim/</guid>
-      <description></description>
     </item>
     <item>
       <title></title>
