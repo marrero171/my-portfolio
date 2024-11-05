@@ -29,7 +29,7 @@ a:hover .feather-moon {
 }
 
 .gk-social-icons-list .gk-social-icon,
-.gk-social-icons-list .gk-social-icon a:visited  {
+.gk-social-icons-list .gk-social-icon a:visited {
   fill: var(--dark-text-color);
 }
 
@@ -78,7 +78,7 @@ pre {
   background-color: var(--dark-secondary-color) !important;
 }
 
-:not(pre) > code {
+:not(pre)>code {
   background-color: var(--dark-tertiary-color) !important;
   color: var(--dark-text-color);
 }

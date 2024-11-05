@@ -2,7 +2,7 @@
 date = 2024-11-03T11:02:48-04:00
 draft = true
 title = 'About Me'
-type = 'page'
+type = 'post'
 +++
 
 # Introduction

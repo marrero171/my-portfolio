@@ -1,7 +1,7 @@
 +++
 title = 'Projects'
 draft = true
-type = 'page'
+type = 'post'
 +++
 
 [Video Game Projects](/projects/video-games)
