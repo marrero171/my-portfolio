@@ -3,14 +3,9 @@ defaultContentLanguage = "en"
 # Automatically generate robots.txt
 enableRobotsTXT = true
 languageCode = "en"
-theme = "gokarna"
+theme = "windy"
 title = "Francisco Marrero"
 
-# Custom css stuff
-[params]
-  customHeadHTML = '''
-    <script src="/js/custom.js"></script>
-  '''
 [markup]
   [markup.goldmark]
     [markup.goldmark.parser]
