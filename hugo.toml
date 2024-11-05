@@ -61,7 +61,7 @@ title = "Francisco Marrero"
 
   # Inject arbitrary HTML via the <head> tag
   # Best used for importing custom JavaScript, CSS, or analytics
-  customHeadHTML = ""
+  customHeadHTML = "<link rel='stylesheet' href='/css/floaty.css'>"
 
   # Configure how post dates are displayed
   # dateFormat must be set if lastmod is declared in front matter, or
