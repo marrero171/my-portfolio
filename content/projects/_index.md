@@ -1,7 +1,8 @@
 +++
 title = 'Projects'
-draft = true
+draft = false
 type = 'post'
 +++
 
 [Video Game Projects](/projects/video-games)
+[Other Projects](/projects/other-projects)
