@@ -1,5 +1,9 @@
 +++
+weight = 10
 date = '{{ .Date }}'
-draft = true
 title = '{{ replace .File.ContentBaseName "-" " " | title }}'
+description = ""
+tags = []
+draft = true
+showTableOfContents = false
 +++

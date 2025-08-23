@@ -1,8 +1,7 @@
 +++
-date = '2025-08-18T23:51:26-04:00'
 draft = false
 title = 'Other Projects'
-type = 'post'
+type = 'page'
 +++
 
-Acho
+# Final Project for Computer Science Bachelor

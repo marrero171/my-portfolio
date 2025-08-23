@@ -14,42 +14,60 @@ title = "Francisco Marrero"
 
 [menu]
   [[menu.main]]
-    name="About Me"
-    url = "/about-me"
+    name = "Home"
+    pre = "<span data-feather='home'></span>"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    # Display name
+    name = "Projects"
+    pre = "<span data-feather='code'></span>"
+    # Relative URL slug (appended to baseURL)
+    url = "/projects/"
+    weight = 2
   [[menu.main]]
     # Display name
     name = "Posts"
-
+    pre = "<span data-feather='book'></span>"
     # Relative URL slug (appended to baseURL)
     url = "/posts/"
 
     # Lower weights are listed first in the menu (leftmost); higher weights are
     # listed last in the menu (rightmost)
-    weight = 1
+    weight = 3
 
   [[menu.main]]
     name = "Tags"
+    pre = "<span data-feather='tag'></span>"
     url = "/tags/"
-    weight = 2
+    weight = 4
     
+  [[menu.main]]
+    name="About Me"
+    pre = "<span data-feather='user'></span>"
+    url = "/about-me"
+    weight = 5
   [[menu.main]]
     # Unique identifiers are required for menu entries without a name property,
     # or for menu entries which re-use a name
     identifier = "github"
-
     # Absolute URL to external resource
     url = "https://github.com/marrero171"
-    weight = 3
-    
+    weight = 6
     # Surround the menu entry (or name) with HTML content, such as Feather
     # icons: https://feathericons.com
     pre = "<span data-feather='github'></span>"
-    post = "marrero171"
+  [[menu.main]]
+    identifier = "linkedin"
+    url = "https://www.linkedin.com/in/francisco-marrero-57174a310/"
+    weight = 6
+    pre = "<span data-feather='linkedin'></span>"
+
 
 [params]
   # Choose the color shown when hyperlinks are hovered over
-  accentColor = "#FF4D4D"
-
+  # accentColor = "#FF4D4D"
+  accentColor = "#32CD32"
   # Resource URL for the site avatar (home page and header)
   avatarURL = "/images/avatar.jpg"
 
@@ -57,7 +75,7 @@ title = "Francisco Marrero"
   avatarAltText = "avatar"
 
   # Set the avatar's size: size-xs, size-s, size-m, size-l & size-xl
-  avatarSize = "size-m"
+  avatarSize = "size-l"
 
   # Inject arbitrary HTML via the <head> tag
   # Best used for importing custom JavaScript, CSS, or analytics
@@ -75,7 +93,7 @@ title = "Francisco Marrero"
     {name = "itchdotio", url = "https://marrero171.itch.io/"},
     {name = "github", url = "https://github.com/marrero171"},
     {name = "linkedin", url = "https://www.linkedin.com/in/francisco-marrero-57174a310/"},
-    {name = "email", url = "mailto:example@example.com"},
+    {name = "email", url = "mailto:marrero171@pm.me"},
   ]
 
 
@@ -102,4 +120,4 @@ title = "Francisco Marrero"
 
   # Show the previous and next post in your timeline: "true", "false"
   # Incompatible with Weight
-  togglePreviousAndNextButtons = "false"
+  togglePreviousAndNextButtons = "true"

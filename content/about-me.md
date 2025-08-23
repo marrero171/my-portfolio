@@ -1,8 +1,7 @@
 +++
-date = 2025-08-18T11:02:48-04:00
 draft = false
 title = 'About Me'
-type = 'post'
+type = 'page'
 +++
 
 # Introduction
