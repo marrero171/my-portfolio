@@ -92,7 +92,7 @@ title = "Francisco Marrero"
   dateFormat = "January 2, 2006"
   
   # Home page meta description
-#description = "Fullstack Web Developer, Game Programmer"
+  description = "Fullstack Web Developer, Game Programmer"
 
     socialIcons = [
     {name = "itchdotio", url = "https://marrero171.itch.io/"},
