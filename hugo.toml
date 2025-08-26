@@ -1,6 +1,7 @@
 baseURL = "https://example.org/"
 defaultContentLanguage = "en"
 # Automatically generate robots.txt
+enableEmoji = true
 enableRobotsTXT = true
 languageCode = "en"
 theme = "gokarna"
@@ -11,6 +12,10 @@ title = "Francisco Marrero"
     [markup.goldmark.parser]
       [markup.goldmark.parser.attribute]
         block = true
+  [markup.tableOfContents]
+    startLevel = 1
+    endLevel = 4
+    ordered = false
 
 [menu]
   [[menu.main]]
@@ -25,22 +30,22 @@ title = "Francisco Marrero"
     # Relative URL slug (appended to baseURL)
     url = "/projects/"
     weight = 2
-  [[menu.main]]
+#  [[menu.main]]
     # Display name
-    name = "Posts"
-    pre = "<span data-feather='book'></span>"
+#    name = "Posts"
+#   pre = "<span data-feather='book'></span>"
     # Relative URL slug (appended to baseURL)
-    url = "/posts/"
+#   url = "/posts/"
 
     # Lower weights are listed first in the menu (leftmost); higher weights are
     # listed last in the menu (rightmost)
-    weight = 3
+#   weight = 3
 
-  [[menu.main]]
-    name = "Tags"
-    pre = "<span data-feather='tag'></span>"
-    url = "/tags/"
-    weight = 4
+#[[menu.main]]
+#    name = "Tags"
+#   pre = "<span data-feather='tag'></span>"
+#   url = "/tags/"
+#   weight = 4
     
   [[menu.main]]
     name="About Me"
@@ -79,7 +84,7 @@ title = "Francisco Marrero"
 
   # Inject arbitrary HTML via the <head> tag
   # Best used for importing custom JavaScript, CSS, or analytics
-  customHeadHTML = "<link rel='stylesheet' href='/css/floaty.css'>"
+  # customHeadHTML = "<link rel='stylesheet' href='/css/floaty.css'>"
 
   # Configure how post dates are displayed
   # dateFormat must be set if lastmod is declared in front matter, or
@@ -87,7 +92,7 @@ title = "Francisco Marrero"
   dateFormat = "January 2, 2006"
   
   # Home page meta description
-  description = "Fullstack Web Developer, Game Programmer"
+#description = "Fullstack Web Developer, Game Programmer"
 
     socialIcons = [
     {name = "itchdotio", url = "https://marrero171.itch.io/"},
@@ -121,3 +126,7 @@ title = "Francisco Marrero"
   # Show the previous and next post in your timeline: "true", "false"
   # Incompatible with Weight
   togglePreviousAndNextButtons = "true"
+
+[minify]
+    minifyOutput = true
+
