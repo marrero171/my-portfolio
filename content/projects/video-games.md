@@ -22,6 +22,7 @@ This game is about running a shop for dead pets, where your objective is to clea
 
 ## Projects of 2024
 ### The Green Planet
+I tried my hand at making more complicated systems and it turned out very well, you can construct ships out of squares and have physics and weight to them.
 [![The Green Planet](https://img.itch.zone/aW1nLzE3NDkzMzUwLnBuZw==/315x250%23c/%2FpjxwQ.png)](https://marrero171.itch.io/the-green-planet)
 
 ### Hell on Train
