@@ -11,7 +11,7 @@ type: "page"
 This project was started in the third year of my time in University of Puerto Rico - Arecibo, and was the final project before graduating. It started as a 5 team project, then gradually was split into 2 teams. My team spent their time doing the counselor part of the project, and a bit of the student and admin parts. I learned a lot from this project and is by far the best learning experience I've had.
 
 ## What is this app for?
-This app was designed to help counselors of PSE in the University of Puerto Rico to manage and schedule appointments with students through simple interface, eliminating the need to use paperwork, as it has been done for many years.
+This app was designed to help counselors of PSE (Programa de Servicios Educativos) in the University of Puerto Rico to manage and schedule appointments with students through simple interface, eliminating the need to use paperwork, as it has been done for many years.
 
 ## Things I learned
 
@@ -24,3 +24,14 @@ This app was designed to help counselors of PSE in the University of Puerto Rico
 
 
 ## Screenshots
+![Screenshot 1](/images/projects/cs-final-project/final-project-1.png)
+
+![Screenshot 2](/images/projects/cs-final-project/final-project-2.png)
+
+![Screenshot 3](/images/projects/cs-final-project/final-project-3.png)
+
+![Screenshot 4](/images/projects/cs-final-project/final-project-4.png)
+
+![Screenshot 5](/images/projects/cs-final-project/final-project-5.png)
+
+![Screenshot 6](/images/projects/cs-final-project/final-project-6.png)
