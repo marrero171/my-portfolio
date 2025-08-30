@@ -130,3 +130,6 @@ title = "Francisco Marrero"
 [minify]
     minifyOutput = true
 
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
