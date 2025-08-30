@@ -1,4 +1,4 @@
-I enjoy the challenge of solving the problems that come with making video games, there is a lot to learn from it. I also enjoy working in the backend, managing and deciding how the website will handle the flow of data. I have been programming games for 5 years and enjoy the process up to the publish phase.
+I enjoy tackling the challenges that come with game development, as each project brings new opportunities to learn and grow. I also have a strong interest in backend development, particularly in managing data and designing how information flows through a system. With 4 years of experience programming games, I’ve come to value not only the creative process but also the technical journey from early development all the way to publishing.
 
 ## [Resume](/documents/resume-francisco-marrero.pdf)
 ## [Projects](/projects/)

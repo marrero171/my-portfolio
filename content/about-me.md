@@ -1,4 +1,3 @@
----
 draft: false
 title: 'About Me'
 type: 'page'
@@ -6,38 +5,22 @@ showTableOfContents: true
 ---
 
 # Introduction
-Hi, I'm Francisco Marrero. I have 5 years of experience in game development, having published multiple prototypes over the years and participating in several game jams. I also have 3 years of experience as a Full Stack Developer in the University of Puerto Rico - Arecibo, on which our team made a scheduling system for the PSE (Programa de Servicios Educativos).
+Hi, I'm Francisco Marrero. I am a Game Developer and Full Stack Developer with 4+ years of experience creating games and 3 years of experience building web applications. Over the years, I’ve published multiple game prototypes, participated in several game jams, and contributed to projects at the University of Puerto Rico – Arecibo, where my team developed a scheduling system for the PSE (Programa de Servicios Educativos).  
 
-Game Development has been a passion for me for a long time, and recently I've been taking steps towards my personal goals while also having fun in the community, and working with other people in the field. These game jams have helped shape my knowledge and has taught me teamwork and leadership during stressful time.
+Game development has been a long-standing passion of mine. Beyond the technical challenges, I value the creativity, teamwork, and leadership that come from collaborating under tight deadlines. These experiences have strengthened not only my problem-solving skills but also my ability to adapt and learn quickly.  
 
-I studied at the University of Puerto Rico - Arecibo, as a web developer using PHP, tailwind CSS, and various other technologies.
+At UPR – Arecibo, I focused on web development using PHP, Tailwind CSS, and other modern technologies, expanding my expertise into backend systems, data management, and full-stack development.  
 
 # Skills
-- Programming Languages
-    - C++
-    - Python
-    - GdScript (Godot Engine)
-    - C# (Unity Engine)
-    - PHP
-    - MariaDB/MySQL
-    - Javascript
-    - HTML
-    - CSS
+- **Programming Languages**  
+  C++, Python, GDScript (Godot), C# (Unity), Dart (Flutter), Java, PHP, SQL (MariaDB/MySQL), HTML, CSS, JavaScript  
 
-- Game Engines
-    - Godot Engine
-    - Unity
+- **Game Engines**  
+  Godot Engine, Unity  
 
-- Technologies
-    - Flask
-    - Flutter
-    - Android Studio
-    - Docker
-    - SSH
+- **Technologies**  
+  Flask, Flutter, Android Studio, Docker, SSH  
 
-- Software
-    - Orcaslicer
-    - Fusion360
-    - Blender
-    - Klipper
-    - Vim/Neovim
+- **Software & Tools**  
+  OrcaSlicer, Fusion 360, Blender, Klipper, Vim/Neovim  
+
