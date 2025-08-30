@@ -127,9 +127,6 @@ title = "Francisco Marrero"
   # Incompatible with Weight
   togglePreviousAndNextButtons = "true"
 
-[minify]
-    minifyOutput = true
-
 [caches]
   [caches.images]
     dir = ':cacheDir/images'
