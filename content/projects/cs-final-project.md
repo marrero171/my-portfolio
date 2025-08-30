@@ -1,6 +1,5 @@
 ---
 date: 2025-08-26
-# image: ""
 lastmod: 2025-08-26
 showTableOfContents: true
 title: "Computer Science Final Project"
@@ -8,20 +7,20 @@ type: "page"
 ---
 
 ## Introduction
-This project was started in the third year of my time in University of Puerto Rico - Arecibo, and was the final project before graduating. It started as a 5 team project, then gradually was split into 2 teams. My team spent their time doing the counselor part of the project, and a bit of the student and admin parts. I learned a lot from this project and is by far the best learning experience I've had.
+This project was part of my third year at the University of Puerto Rico – Arecibo and served as my final project before graduating. It originally began as a 5-person team effort but later split into two smaller groups. My team focused mainly on the counselor side of the system, with some contributions to the student and admin sections as well. It turned out to be one of the most valuable learning experiences I’ve had during my time at the university.
 
 ## What is this app for?
-This app was designed to help counselors of PSE (Programa de Servicios Educativos) in the University of Puerto Rico to manage and schedule appointments with students through simple interface, eliminating the need to use paperwork, as it has been done for many years.
+The app was built for the **Programa de Servicios Educativos (PSE)** at UPR Arecibo. Its goal is to help counselors manage and schedule student appointments through a simple digital interface, replacing the long-standing reliance on paperwork. By digitizing the process, the app saves time, reduces errors, and makes student-counselor interactions more efficient.
 
-## Things I learned
+## Things I Learned
+Working on this project gave me the chance to dive deeper into technologies I had only scratched the surface of before. Some highlights include:
 
-- **Docker Composer:** I learned how to create my own Dockerfiles to get the app working in a containerized environment, facilitating deployment and the need to manually install all these dependencies.
-- **Python:** I got a much deeper experience with python and learned a lot of the details that you don't get when learning through small projects.
-- **HTML and templating:** We used Jinja templates which made creating static pages less time consuming, and more standardized.
-- **Celery:** I implemented asynchronous tasks using celery, for example, to send emails in a predetermined time.
-- **Flask:** I got to learn more about Flask and different patterns used. In this instance, we used Application Factory.
-- **MVC pattern:** This project was built with the MVC pattern, and the model part was by far the most fun, doing data manipulation.
-
+- **Docker Compose:** Learned to write custom Dockerfiles and containerize the app, making deployment easier and avoiding manual dependency setup.
+- **Python:** Gained a much deeper understanding of Python by working on a large-scale project instead of small exercises.
+- **HTML & Jinja Templating:** Used Jinja templates to speed up page creation and maintain a consistent design.
+- **Celery:** Implemented asynchronous tasks, such as scheduling emails to be sent automatically at specific times.
+- **Flask:** Expanded my knowledge of Flask, exploring patterns like the Application Factory.
+- **MVC Pattern:** Worked extensively on the Model layer, which I found especially rewarding since it involved data manipulation and structuring.
 
 ## Screenshots
 
