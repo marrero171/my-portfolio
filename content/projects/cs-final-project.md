@@ -24,6 +24,7 @@ This app was designed to help counselors of PSE (Programa de Servicios Educativo
 
 
 ## Screenshots
+
 ![Screenshot 1](/images/projects/cs-final-project/final-project-1.png)
 
 ![Screenshot 2](/images/projects/cs-final-project/final-project-2.png)

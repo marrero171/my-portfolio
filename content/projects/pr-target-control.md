@@ -22,3 +22,9 @@ It was thrilling to see something I built control a physical device like that, w
 - The latest features Android API has to offer (Such as predictive back gestures and stricter permissions)
 
 ## Screenshots
+
+![Screenshot 1](/images/projects/pr-target-control/target-control-1.jpg)
+
+![Screenshot 2](/images/projects/pr-target-control/target-control-2.jpg)
+
+![Screenshot 3](/images/projects/pr-target-control/target-control-3.jpg)
