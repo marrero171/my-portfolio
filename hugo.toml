@@ -64,7 +64,7 @@ title = "Francisco Marrero"
     pre = "<span data-feather='github'></span>"
   [[menu.main]]
     identifier = "linkedin"
-    url = "https://www.linkedin.com/in/francisco-marrero-57174a310/"
+    url = "https://www.linkedin.com/in/francisco-marrero-miranda-a09358207/"
     weight = 6
     pre = "<span data-feather='linkedin'></span>"
 
@@ -97,7 +97,7 @@ title = "Francisco Marrero"
     socialIcons = [
     {name = "itchdotio", url = "https://marrero171.itch.io/"},
     {name = "github", url = "https://github.com/marrero171"},
-    {name = "linkedin", url = "https://www.linkedin.com/in/francisco-marrero-57174a310/"},
+    {name = "linkedin", url = "https://www.linkedin.com/in/francisco-marrero-miranda-a09358207/"},
     {name = "email", url = "mailto:marrero171@pm.me"},
   ]
 
