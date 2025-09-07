@@ -16,12 +16,14 @@ At UPR – Arecibo, I focused on web development using PHP, Tailwind CSS, and ot
 - **Programming Languages**
   C++, Python, GDScript (Godot), C# (Unity), Dart (Flutter), Java, PHP, SQL (MariaDB/MySQL), HTML, CSS, JavaScript
 
-- **Game Engines**
-  Godot Engine, Unity
-
 - **Technologies**
   Flask, Flutter, Android Studio, Docker, SSH
 
 - **Software & Tools**
   OrcaSlicer, Fusion 360, Blender, Klipper, Vim/Neovim
+
+- **Game Engines**
+  Godot Engine, Unity
+
+
 
