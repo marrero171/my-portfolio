@@ -98,7 +98,7 @@ title = "Francisco Marrero"
     {name = "itchdotio", url = "https://marrero171.itch.io/"},
     {name = "github", url = "https://github.com/marrero171"},
     {name = "linkedin", url = "https://www.linkedin.com/in/francisco-marrero-miranda-a09358207/"},
-    {name = "email", url = "mailto:marrero171@pm.me"},
+    {name = "email", url = "mailto:francisco@franciscomarrero.dev"},
   ]
 
 
@@ -107,7 +107,7 @@ title = "Francisco Marrero"
   footer = "Francisco Marrero"
 
   # Define SEO keywords
-  metaKeywords = ["portfolio", "about me", "blog"]
+  metaKeywords = ["portfolio", "about me"]
 
   # Define how many posts are displayed on the home page
   # showPostsOnHomePage must be "popular" or "recent"
