@@ -84,7 +84,7 @@ title = "Francisco Marrero"
 
   # Inject arbitrary HTML via the <head> tag
   # Best used for importing custom JavaScript, CSS, or analytics
-  # customHeadHTML = "<link rel='stylesheet' href='/css/floaty.css'>"
+  customHeadHTML = "<script defer src="https://cloud.umami.is/script.js" data-website-id="2e7a9092-f7a8-4e76-8fb3-c0038ab2e6b0"></script>"
 
   # Configure how post dates are displayed
   # dateFormat must be set if lastmod is declared in front matter, or
