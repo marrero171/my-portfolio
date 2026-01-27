@@ -9,3 +9,4 @@ This section includes a mix of personal and academic projects. Several focus on 
 ## [Computer Science Final Project](/projects/cs-final-project)  
 ## [PR Target Control](/projects/pr-target-control)  
 ## [Video Game Projects](/projects/video-games)  
+## [3D Printing](/projects/3d-printing)
