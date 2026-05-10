@@ -6,18 +6,21 @@ title: "3D Printing Projects"
 type: "page"
 ---
 
-
-## Introduction
 This page showcases a selection of my 3D printing projects. I designed models such as the Arecibo Observatory replica, keychains, and a Sphero labyrinth using Fusion 360. For slicing and print preparation, I primarily used OrcaSlicer and Ultimaker Cura.
 
+<!--more-->
+
 ## 3D Printers Used
+
 - Ultimaker S7 Pro
 - Ultimaker 2+
 - Ender 3 Pro
 - Elegoo Neptune 4 Pro
 
 ## Original Designs
+
 The following printed models were designed by me:
+
 - Arecibo Observatory scale model
 - Periodic table of elements
 - Labyrinth puzzle
@@ -28,6 +31,7 @@ The following printed models were designed by me:
 ## Gallery
 
 ### Models of my design
+
 ![](/images/projects/3dprinting/IMG-20250502-WA0009.jpg)
 ![](/images/projects/3dprinting/periodic_table.jpg)
 ![](/images/projects/3dprinting/20231012_160225+1.jpg)
@@ -39,7 +43,9 @@ The following printed models were designed by me:
 ![](/images/projects/3dprinting/20241126_122632.jpg)
 ![](/images/projects/3dprinting/20240228_211851.jpg)
 ![](/images/projects/3dprinting/20230729_154609.jpg)
+
 ### Prints of External Designs
+
 The following prints are based on designs not created by me, but printed and finished by me.
 ![](/images/projects/3dprinting/20240130_162413.jpg)
 ![](/images/projects/3dprinting/20240213_130021.jpg)

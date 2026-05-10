@@ -1,11 +1,11 @@
-baseURL = "https://franciscomarrero.dev/"
-defaultContentLanguage = "en"
+baseURL = 'https://franciscomarrero.dev/'
+defaultContentLanguage = 'en'
 # Automatically generate robots.txt
 enableEmoji = true
 enableRobotsTXT = true
-locale = "en"
-theme = "gokarna"
-title = "Francisco Marrero"
+locale = 'en'
+theme = 'custom'
+title = 'Francisco Marrero'
 
 [markup]
   [markup.goldmark]
@@ -17,115 +17,63 @@ title = "Francisco Marrero"
     endLevel = 4
     ordered = false
 
-[menu]
-  [[menu.main]]
-    name = "Home"
-    pre = "<span data-feather='home'></span>"
-    url = "/"
+[menus]
+  [[menus.main]]
+    name = 'Home'
+    pageRef = '/'
     weight = 1
-  [[menu.main]]
+  [[menus.main]]
     # Display name
-    name = "Projects"
-    pre = "<span data-feather='code'></span>"
-    # Relative URL slug (appended to baseURL)
-    url = "/projects/"
+    name = 'Projects'
+    pageRef = '/projects/'
     weight = 2
-#  [[menu.main]]
-    # Display name
-#    name = "Posts"
-#   pre = "<span data-feather='book'></span>"
-    # Relative URL slug (appended to baseURL)
-#   url = "/posts/"
-
-    # Lower weights are listed first in the menu (leftmost); higher weights are
-    # listed last in the menu (rightmost)
-#   weight = 3
-
-#[[menu.main]]
-#    name = "Tags"
-#   pre = "<span data-feather='tag'></span>"
-#   url = "/tags/"
-#   weight = 4
     
-  [[menu.main]]
-    name="About Me"
-    pre = "<span data-feather='user'></span>"
-    url = "/about-me"
+  [[menus.main]]
+    name='About Me'
+    pageRef = '/about-me'
     weight = 5
-  [[menu.main]]
-    # Unique identifiers are required for menu entries without a name property,
-    # or for menu entries which re-use a name
-    identifier = "github"
-    # Absolute URL to external resource
-    url = "https://github.com/marrero171"
+  [[menus.main]]
+    name = 'Github'
+    url = 'https://github.com/marrero171'
     weight = 6
     # Surround the menu entry (or name) with HTML content, such as Feather
     # icons: https://feathericons.com
-    pre = "<span data-feather='github'></span>"
-  [[menu.main]]
-    identifier = "linkedin"
-    url = "https://www.linkedin.com/in/francisco-marrero-a09358207/"
+  [[menus.main]]
+    name = 'Linkedin'
+    url = 'https://www.linkedin.com/in/francisco-marrero-a09358207/'
     weight = 6
-    pre = "<span data-feather='linkedin'></span>"
-
 
 [params]
   # Choose the color shown when hyperlinks are hovered over
-  # accentColor = "#FF4D4D"
-  accentColor = "#32CD32"
-  # Resource URL for the site avatar (home page and header)
-  avatarURL = "/images/avatar.jpg"
-
-  # Describe the avatar for screen readers
-  avatarAltText = "avatar"
-
-  # Set the avatar's size: size-xs, size-s, size-m, size-l & size-xl
-  avatarSize = "size-l"
+  # accentColor = '#FF4D4D'
+  accentColor = '#32CD32'
 
   # Inject arbitrary HTML via the <head> tag
   # Best used for importing custom JavaScript, CSS, or analytics
-  customHeadHTML = '<script defer src="https://cloud.umami.is/script.js" data-website-id="2e7a9092-f7a8-4e76-8fb3-c0038ab2e6b0"></script>'
+  customHeadHTML = "<script defer src='https://cloud.umami.is/script.js' data-website-id='2e7a9092-f7a8-4e76-8fb3-c0038ab2e6b0'></script>"
 
   # Configure how post dates are displayed
   # dateFormat must be set if lastmod is declared in front matter, or
   # enableGitInfo is true
-  dateFormat = "January 2, 2006"
+  dateFormat = 'January 2, 2006'
   
   # Home page meta description
-  description = "Fullstack Web Developer, Game Programmer"
+  description = 'Fullstack Web Developer, Game Programmer'
 
     socialIcons = [
-    {name = "itchdotio", url = "https://marrero171.itch.io/"},
-    {name = "github", url = "https://github.com/marrero171"},
-    {name = "linkedin", url = "https://www.linkedin.com/in/francisco-marrero-a09358207/"},
-    {name = "email", url = "mailto:francisco@franciscomarrero.dev"},
+    {name = 'itchdotio', url = 'https://marrero171.itch.io/'},
+    {name = 'github', url = 'https://github.com/marrero171'},
+    {name = 'linkedin', url = 'https://www.linkedin.com/in/francisco-marrero-a09358207/'},
+    {name = 'email', url = 'mailto:francisco@franciscomarrero.dev'},
   ]
 
 
 
   # Footer text (i.e. author/project name)
-  footer = "Francisco Marrero"
+  footer = 'Francisco Marrero'
 
   # Define SEO keywords
-  metaKeywords = ["portfolio", "about me", "resume"]
-
-  # Define how many posts are displayed on the home page
-  # showPostsOnHomePage must be "popular" or "recent"
-  numberPostsOnHomePage = 4
-
-  # Display a "back to top" button on posts and pages: true, false
-  # May not render on smaller screen sizes
-  showBackToTopButton = true
-
-  # Display posts on the home page:
-  # "popular" (order posts by weight)
-  # "recent" (order posts by date)
-  # "", unset (do not display)
-  showPostsOnHomePage = ""
-
-  # Show the previous and next post in your timeline: "true", "false"
-  # Incompatible with Weight
-  togglePreviousAndNextButtons = "true"
+  metaKeywords = ['portfolio', 'about me', 'resume']
 
 [caches]
   [caches.images]
