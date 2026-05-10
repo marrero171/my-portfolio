@@ -27,7 +27,7 @@ a {
 }
 
 .btn {
-  transition-duration: 0.5s;
+  transition: 0.3s ease all;
   outline: #313244 solid 1px;
   background-color: #181825;
   padding: 24px;
@@ -43,6 +43,7 @@ a {
 }
 
 .btn:hover {
+  transition: 0.3s ease all;
   background-color: #11111b; 
   outline: #a6e3a1 solid 1px; 
   width: 10rem;
