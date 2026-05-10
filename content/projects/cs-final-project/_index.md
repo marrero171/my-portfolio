@@ -29,14 +29,14 @@ Working on this project gave me the chance to dive deeper into technologies I ha
 
 ## Screenshots
 
-![Screenshot 1](/images/projects/cs-final-project/final-project-1.png)
+![Screenshot 1](final-project-1.png)
 
-![Screenshot 2](/images/projects/cs-final-project/final-project-2.png)
+![Screenshot 2](final-project-2.png)
 
-![Screenshot 3](/images/projects/cs-final-project/final-project-3.png)
+![Screenshot 3](final-project-3.png)
 
-![Screenshot 4](/images/projects/cs-final-project/final-project-4.png)
+![Screenshot 4](final-project-4.png)
 
-![Screenshot 5](/images/projects/cs-final-project/final-project-5.png)
+![Screenshot 5](final-project-5.png)
 
-![Screenshot 6](/images/projects/cs-final-project/final-project-6.png)
+![Screenshot 6](final-project-6.png)

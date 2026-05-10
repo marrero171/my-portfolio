@@ -28,8 +28,8 @@ Seeing the app control a real piece of hardware in real time was super rewarding
 
 ## Screenshots
 
-![Screenshot 1](/images/projects/pr-target-control/target-control-1.jpg)
+![Screenshot 1](target-control-1.jpg)
 
-![Screenshot 2](/images/projects/pr-target-control/target-control-2.jpg)
+![Screenshot 2](target-control-2.jpg)
 
-![Screenshot 3](/images/projects/pr-target-control/target-control-3.jpg)
+![Screenshot 3](target-control-3.jpg)

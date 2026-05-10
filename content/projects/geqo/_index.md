@@ -15,4 +15,4 @@ Godot Environment Query Orchestrator (GEQO) is a node-based environment querying
 
 It can be found **[here](https://github.com/geqo-godot/geqo)**
 
-![GEQO logo](/images/projects/geqo/geqo-logo.svg)
+![GEQO logo](geqo-logo.svg)
