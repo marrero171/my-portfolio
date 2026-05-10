@@ -3,7 +3,7 @@ defaultContentLanguage = "en"
 # Automatically generate robots.txt
 enableEmoji = true
 enableRobotsTXT = true
-languageCode = "en"
+locale = "en"
 theme = "gokarna"
 title = "Francisco Marrero"
 
