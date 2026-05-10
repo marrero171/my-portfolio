@@ -3,22 +3,21 @@
 
 body {
   color: white;
-  background-color: black;
+  background-color: #1e1e2e;
   font-family: sans-serif;
   line-height: 1.5;
   margin: 1rem;
-  width: 80%;
+  width: 100%;
   margin-top: 50px;
 }
 
 a {
-  color: limegreen;
+  color: #a6e3a1;
   text-decoration: none;
 }
 
 .header {
-  background-color: rgba(19, 19, 19, 0.95);
-  color: inherit;
+  background-color: #31324481;
   height: 50px;
   left: 0;
   position: fixed;
@@ -37,8 +36,34 @@ a {
   list-style: none;
 }
 
-.header h1 {
+.header .nav-title {
   display: inline-block;
   height: 100%;
   line-height: 50px;
+  padding-left: 15px;
+}
+
+.nav-title a {
+  height: 50px;
+}
+
+.header .nav-links {
+  float: right;
+}
+
+.home-box {
+  display: flex;
+  justify-content: center;
+}
+
+.home-box .home-box-item {
+  outline: #313244 solid 1px;
+  background-color: #181825;
+  padding: 8px;
+  border-radius: 24px;
+  margin: 16px;
+}
+
+.home-box-item a {
+  color: #cdd6f4;
 }
