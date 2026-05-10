@@ -7,7 +7,8 @@ body {
   font-family: sans-serif;
   line-height: 1.5;
   margin: 1rem;
-  max-width: 768px;
+  width: 80%;
+  margin-top: 50px;
 }
 
 a {
@@ -15,3 +16,29 @@ a {
   text-decoration: none;
 }
 
+.header {
+  background-color: rgba(19, 19, 19, 0.95);
+  color: inherit;
+  height: 50px;
+  left: 0;
+  position: fixed;
+  top: 0;
+  transition: box-shadow 0.3s ease-in-out;
+  width: 100%;
+  z-index: 5;
+}
+
+.header li {
+  margin-right: 1rem;
+}
+
+.header ul {
+  display: flex;
+  list-style: none;
+}
+
+.header h1 {
+  display: inline-block;
+  height: 100%;
+  line-height: 50px;
+}
