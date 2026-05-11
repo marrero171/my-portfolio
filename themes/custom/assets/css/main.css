@@ -19,7 +19,7 @@ body {
 }
 
 a {
-  transition: 0.5s ease all;
+  transition: 0.25s ease all;
   color: #a6e3a1;
   text-decoration: none;
 }
@@ -29,7 +29,7 @@ a:hover {
 }
 
 .btn {
-  transition: 0.3s ease all;
+  transition: 0.25s ease all;
   outline: #313244 solid 1px;
   background-color: #181825;
   padding: 24px;
@@ -45,7 +45,7 @@ a:hover {
 }
 
 .btn:hover {
-  transition: 0.3s ease all;
+  transition: 0.25s ease all;
   background-color: rgb(17, 17, 27); 
   outline: #a6e3a1 solid 1px; 
   width: 10rem;
@@ -120,7 +120,7 @@ main {
   display: flex;
   justify-content: center;
   height: 10rem;
-  animation: 1s ease-out 1.5s 1 slideInBounce forwards;
+  animation: 0.25s ease-out 0.4s 1 slideInBounce forwards;
 }
 
 .home-box .home-box-item {
@@ -132,7 +132,7 @@ main {
 }
 
 .avatar-image {
-  animation: 1s ease-out 0s 1 slideInBounce;
+  animation: 0.5s ease-out 0s 1 slideInBounce;
   width: 15rem;
   border-radius: 50%;
   display: block;
@@ -161,15 +161,15 @@ main {
 
 .home-about h1 {
   opacity: 0;
-  animation: 1s ease-out 0.5s 1 fadeIn forwards;
+  animation: 0.25s ease 0.25s 1 fadeIn forwards;
 }
 .home-about h2 {
   opacity: 0;
-  animation: 1s ease-out 0.75s 1 fadeIn forwards;
+  animation: 0.25s ease 0.3s 1 fadeIn forwards;
 }
 .home-about p {
   opacity: 0;
-  animation: 1s ease-out 1s 1 fadeIn forwards;
+  animation: 0.25s ease 0.35s 1 fadeIn forwards;
 }
 
 img {
@@ -210,7 +210,7 @@ img {
 }
 
 .card-title {
-  transition: 1s ease all;
+  transition: 0.25s ease all;
 }
 
 .card-title:hover {
