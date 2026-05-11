@@ -1,6 +1,6 @@
 ---
 date: 2026-04-06T09:18:28-04:00
-# image: ""
+image: "geqo-logo.svg"
 lastmod: 2026-04-06
 showTableOfContents: true
 title: "Godot Environment Query Orchestrator (GEQO)"

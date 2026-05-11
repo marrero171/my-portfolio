@@ -3,6 +3,7 @@ date: 2026-01-27
 lastmod: 2026-01-27
 showTableOfContents: true
 title: "3D Printing Projects"
+image: "20240307_134246.jpg"
 type: "page"
 ---
 

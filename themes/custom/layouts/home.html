@@ -1,3 +1,28 @@
 {{ define "main" }}
-  {{ .Content }}
+    {{ .Content }}
+
+    <div class="home-project-section">
+    <h2>Top Projects</h2>
+    {{ $sectionPages := where .Site.RegularPages "Section" "projects" }}
+    {{ $filteredPages := where $sectionPages "Params.favoriteProject" true }}
+
+    {{ range $filteredPages }}
+        <div class="project-card"> 
+            <div>
+                <h3 class="card-title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+                {{ .Summary }}
+            </div>
+        {{ with .Resources.Get .Params.image }}
+            {{ if reflect.IsImageResourceProcessable . }}
+                {{ with .Resize "1800x webp" }}
+                    <img src="{{ .RelPermalink }}">
+                {{ end }}
+            {{ else }}
+                <img src="{{ .RelPermalink }}">
+            {{ end }}
+        {{ end }}
+        </div>
+    {{ end }}
+
+    </div>
 {{ end }}

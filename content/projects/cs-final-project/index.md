@@ -1,5 +1,6 @@
 ---
 title: "Computer Science Final Project"
+image: "final-project-1.png"
 date: 2025-08-26
 lastmod: 2025-08-26
 type: "page"

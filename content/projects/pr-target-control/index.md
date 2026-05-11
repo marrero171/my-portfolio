@@ -5,6 +5,7 @@ showTableOfContents: true
 title: "PR Target Control"
 type: "page"
 favoriteProject: true
+image: "target-control-1.jpg"
 ---
 
 Date started: Aug 10, 2023
