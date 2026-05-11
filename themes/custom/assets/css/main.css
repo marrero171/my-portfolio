@@ -150,7 +150,7 @@ main {
   border-radius: 1rem;
   background: #1E1E2E;
   background: radial-gradient(circle, rgba(147, 153, 178, 0.25) 5%, rgba(30, 30, 46, 0.25) 50%);
-  animation: 5s ease-in-out 1s infinite breathe;
+  animation: 5s ease-in-out 0s infinite breathe;
   z-index: -1;
 }
 
