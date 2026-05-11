@@ -1,0 +1,77 @@
+@view-transition {
+  navigation: auto;
+}
+
+@keyframes slideInBounce {
+  0% {
+    transform: scale(0.1) translateY(50%);
+    opacity: 0;
+  }
+  
+  75% {
+    transform: translateY(0) scale(1.05);
+  }
+
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes breathe {
+    0% {
+        scale: 1;
+        opacity: 1;
+    }
+    50% {
+        scale: 1.4;
+        opacity: 0.5;
+    }
+    100% {
+        scale: 1;
+        opacity: 1;
+    }
+}
+
+@keyframes fadeIn {
+    0% {
+    transform: scale(0.1) translateY(-50%);
+        opacity: 0;
+    }
+    100% {
+    transform: scale(1) translateY(0);
+        opacity: 100%;
+    }
+}
+
+/* Create a custom animation for transition between pages */
+@keyframes moveOut {
+  from {
+    transform: translateY(0);
+  }
+
+  to {
+    transform: translateY(-15%);
+    opacity: 0;
+  }
+}
+
+@keyframes moveIn {
+  from {
+    transform: translateY(-10%);
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+/* Apply the custom animation to the old and new page states */
+::view-transition-old(root) {
+  animation: 0.4s ease-in both moveOut;
+}
+
+::view-transition-new(root) {
+  animation: 0.5s ease-out both moveIn;
+}
