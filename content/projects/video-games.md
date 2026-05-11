@@ -1,7 +1,8 @@
 ---
-showTableOfContents: true
 title: "Video Game Projects"
 type: "page"
+showTableOfContents: true
+favoriteProject: true
 ---
 
 These are some of the game jam projects I’ve worked on. They were made in teams of 2–5 people, with development times ranging from 2 to 14 days.

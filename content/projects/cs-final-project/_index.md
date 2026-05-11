@@ -1,9 +1,10 @@
 ---
+title: "Computer Science Final Project"
 date: 2025-08-26
 lastmod: 2025-08-26
-showTableOfContents: true
-title: "Computer Science Final Project"
 type: "page"
+showTableOfContents: true
+favoriteProject: true
 ---
 
 Date started: Oct 29, 2023

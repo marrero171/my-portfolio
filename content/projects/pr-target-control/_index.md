@@ -4,6 +4,7 @@ lastmod: 2025-08-26
 showTableOfContents: true
 title: "PR Target Control"
 type: "page"
+favoriteProject: true
 ---
 
 Date started: Aug 10, 2023
