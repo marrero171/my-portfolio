@@ -14,7 +14,7 @@
             </div>
         {{ with .Resources.Get .Params.image }}
             {{ if reflect.IsImageResourceProcessable . }}
-                {{ with .Resize "1800x webp" }}
+                {{ with .Process "resize 1000x webp, crop 1500x1200 left" }}
                     <img src="{{ .RelPermalink }}">
                 {{ end }}
             {{ else }}
