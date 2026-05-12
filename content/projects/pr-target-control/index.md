@@ -30,12 +30,12 @@ Seeing the app control a real piece of hardware in real time was super rewarding
 
 ## Screenshots
 
-{{% gallery-container %}}
+{{< gallery-container >}}
 
-![Screenshot 1](target-control-1.jpg)
+{{< gallery-image image=target-control-1.jpg gallery=1 >}}
 
-![Screenshot 2](target-control-2.jpg)
+{{< gallery-image image=target-control-2.jpg gallery=1 >}}
 
-![Screenshot 3](target-control-3.jpg)
+{{< gallery-image image=target-control-3.jpg gallery=1 >}}
 
-{{% /gallery-container %}}
+{{< /gallery-container >}}

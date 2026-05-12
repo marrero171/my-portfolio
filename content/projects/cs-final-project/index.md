@@ -31,18 +31,17 @@ Working on this project gave me the chance to dive deeper into technologies I ha
 
 ## Screenshots
 
-{{% gallery-container %}}
+{{< gallery-container >}}
+{{< gallery-image image="final-project-1.png" gallery=1 >}}
 
-![Screenshot 1](final-project-1.png)
+{{< gallery-image image="final-project-2.png" gallery=1 >}}
 
-![Screenshot 2](final-project-2.png)
+{{< gallery-image image="final-project-3.png" gallery=1 >}}
 
-![Screenshot 3](final-project-3.png)
+{{< gallery-image image="final-project-4.png" gallery=1 >}}
 
-![Screenshot 4](final-project-4.png)
+{{< gallery-image image="final-project-5.png" gallery=1 >}}
 
-![Screenshot 5](final-project-5.png)
+{{< gallery-image image="final-project-6.png" gallery=1 >}}
 
-![Screenshot 6](final-project-6.png)
-
-{{% /gallery-container %}}
+{{< /gallery-container >}}

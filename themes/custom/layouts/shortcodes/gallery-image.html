@@ -1,0 +1,15 @@
+{{ $gallery := .Get "gallery" }}
+{{ with .Page.Resources.Get (.Get "image") }}
+    {{ $original := . }}
+    {{ if reflect.IsImageResourceProcessable . }}
+        {{ with .Resize "500x webp" }}
+            <a href="{{ $original.RelPermalink }}" data-lightbox="{{ $gallery }}">
+                <img src="{{ .RelPermalink }}">
+            </a>
+        {{ end }}
+    {{ else }}
+        <a href="{{ .RelPermalink }}" data-lightbox="{{ $gallery }}">
+            <img src="{{ .RelPermalink }}">
+        </a>
+    {{ end }}
+{{ end }}

@@ -1,9 +1,25 @@
+@import "components/normalize.min.css";
+@import "lightbox.min.css";
 @import "components/header.css";
 @import "components/footer.css";
 @import "animations.css";
 
 *, *::before, *::after {
   box-sizing: border-box;
+}
+
+/* Lightbox overrides */
+:root {
+  --lb-overlay-bg: #313244;
+  --lb-overlay-opacity: 0.8;
+  --lb-container-bg: #1e1e2e;
+  --lb-image-border-width: 4px;
+  --lb-image-border-color: #1e1e2e;
+  --lb-text-color: #cdd6f4;
+  --lb-caption-link-color: #4ae;
+  --lb-number-color: #cdd6f4;
+  --lb-nav-transition-speed: 0.2s;
+  --lb-close-transition-speed: 0.2s;
 }
 
 body {
@@ -26,6 +42,7 @@ a {
 
 a:hover {
   color: #94e2d5;
+  fill: #94e2d5;
 }
 
 .btn {
@@ -57,44 +74,6 @@ a:hover {
 .btn:active {
   transform: translateY(10px);
   box-shadow: 0px 5px 5px;
-}
-
-.header {
-  backdrop-filter: blur(5px);
-  background-color: #31324481;
-  color: #31324481;
-  height: 50px;
-  left: 0;
-  position: fixed;
-  top: 0;
-  width: 100%;
-  z-index: 5;
-  border-color: rgba(0,0,0,0);
-  box-shadow: 0px 5px 5px;
-}
-
-.header li {
-  margin-right: 1rem;
-}
-
-.header ul {
-  display: flex;
-  list-style: none;
-}
-
-.header .nav-title {
-  display: inline-block;
-  height: 100%;
-  line-height: 50px;
-  padding-left: 15px;
-}
-
-.nav-title a {
-  height: 50px;
-}
-
-.header .nav-links {
-  float: right;
 }
 
 main {
@@ -243,10 +222,10 @@ img {
 
 .gallery-container img:hover {
   scale: 1.01;
-  cursor: pointer;
   box-shadow: 0px 0px 40px #a6e3a1;
 }
 
+/*
 #overlay {
   position: fixed;
   display: none;
@@ -284,3 +263,47 @@ img {
   max-width: 95vw;
   object-fit: contain;
 }
+*/
+
+.lb-container {
+  outline-color: #a6e3a1;
+}
+
+.gk-social-icons {
+  text-align: center;
+}
+
+.gk-social-icons .gk-social-icons-list {
+  background: #181825;
+  opacity: 0;
+  animation: 0.5s ease 0.5s 1 fadeIn forwards;
+  display: inline-block;
+  list-style-type: none;
+  padding: 1rem 0.5rem 0.5rem 0.5rem;
+  border-radius: 1rem;
+  text-align: center;
+}
+
+.gk-social-icons-list .gk-social-icon {
+  box-sizing: border-box;
+  display: inline-block;
+  fill: #a6e3a1;
+  height: 32px;
+  margin: 0 6px;
+  width: 32px;
+}
+
+.gk-social-icon {
+  transition: scale 0.25s ease;
+  scale: 1;
+}
+
+.gk-social-icon:hover {
+  scale: 1.5;
+}
+
+.gk-social-icon a svg path {
+  transition: fill 0.25s ease;
+}
+
+

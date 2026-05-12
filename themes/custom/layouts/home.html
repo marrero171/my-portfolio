@@ -1,5 +1,19 @@
 {{ define "main" }}
     {{ .Content }}
+    {{ if isset .Site.Params "socialicons" }}
+    <div class="gk-social-icons">
+        <ul class="gk-social-icons-list">
+            {{ range .Site.Params.SocialIcons }}
+            <li class="gk-social-icon">
+                <a href="{{ .url }}" target="_blank" rel="{{ if .rel }}{{ .rel }} {{ end }}noopener noreferrer" aria-label="Learn more on {{ .name }}">
+                    <img class="svg-inject" src="{{ relURL "svg/icons/" }}{{ .name | lower }}.svg" alt="">
+                </a>
+            </li>
+            {{ end }}
+        </ul>
+    </div>
+    {{ end }}
+
 
     <div class="home-project-section">
     <h2>Top Projects</h2>
