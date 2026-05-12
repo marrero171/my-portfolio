@@ -32,9 +32,8 @@ a:hover {
   transition: 0.25s ease all;
   outline: #313244 solid 1px;
   background-color: #181825;
-  padding: 24px;
   border-radius: 80px;
-  width: 8rem;
+  width: 10rem;
   height: 3rem;
   max-width: 300px;
   text-align: center;
@@ -48,10 +47,10 @@ a:hover {
   transition: 0.25s ease all;
   background-color: rgb(17, 17, 27); 
   outline: #a6e3a1 solid 1px; 
-  width: 10rem;
+  width: 12rem;
   height: 4rem;
   padding: 0px;
-  font-size: x-large;
+  font-size: large;
   box-shadow: 0px 10px 10px #a6e3a1;
 }
 
@@ -182,7 +181,7 @@ img {
   padding: 2rem;
   animation: reveal ease-in-out both;
   animation-timeline: view();
-  animation-range: entry 1% cover 20%;
+  animation-range: entry 5% cover 20%;
 }
 
 .project-section {
@@ -217,4 +216,33 @@ img {
   scale: 1.1;
   transform: translateX(1.5rem);
   text-shadow: 0px 0px 10px #a6e3a1;
+}
+
+/* TODO: Make gallery container default to 1 cloumn when mobile */
+.gallery-container {
+  columns: 2;
+  background: #181825;
+  border-radius: 1rem;
+  padding: 2rem;
+}
+
+.gallery-container p {
+  display: contents;
+}
+
+.gallery-container img {
+  transition: 0.25s ease all;
+  width: calc(100% - 4rem);
+  border-radius: 1rem;
+  outline: #313244 solid 2px;
+  box-shadow: 0px 0px 10px #a6e3a1;
+  display: block;
+  break-inside: avoid;
+  margin: 0 2rem 1rem 2rem;
+}
+
+.gallery-container img:hover {
+  scale: 1.01;
+  cursor: pointer;
+  box-shadow: 0px 0px 40px #a6e3a1;
 }

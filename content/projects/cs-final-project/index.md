@@ -31,6 +31,8 @@ Working on this project gave me the chance to dive deeper into technologies I ha
 
 ## Screenshots
 
+{{% gallery-container %}}
+
 ![Screenshot 1](final-project-1.png)
 
 ![Screenshot 2](final-project-2.png)
@@ -42,3 +44,5 @@ Working on this project gave me the chance to dive deeper into technologies I ha
 ![Screenshot 5](final-project-5.png)
 
 ![Screenshot 6](final-project-6.png)
+
+{{% /gallery-container %}}

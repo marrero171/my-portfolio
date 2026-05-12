@@ -2,9 +2,20 @@
   <h1>{{ .Title }}</h1>
   {{ .Content }}
   {{ range .Pages }}
-    <section>
-      <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
-      {{ .Summary }}
-    </section>
+    <div class="project-card"> 
+      <div>
+        <h3 class="card-title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+        {{ .Summary }}
+      </div>
+      {{ with .Resources.Get .Params.image }}
+        {{ if reflect.IsImageResourceProcessable . }}
+          {{ with .Process "resize 1000x webp, crop 1500x1800 left" }}
+              <img src="{{ .RelPermalink }}">
+          {{ end }}
+        {{ else }}
+          <img src="{{ .RelPermalink }}">
+        {{ end }}
+      {{ end }}
+    </div>
   {{ end }}
 {{ end }}

@@ -33,6 +33,7 @@ The following printed models were designed by me:
 
 ### Models of my design
 
+{{% gallery-container %}}
 ![](IMG-20250502-WA0009.jpg)
 ![](periodic_table.jpg)
 ![](20231012_160225+1.jpg)
@@ -45,9 +46,14 @@ The following printed models were designed by me:
 ![](20240228_211851.jpg)
 ![](20230729_154609.jpg)
 
+{{% /gallery-container %}}
+
 ### Prints of External Designs
 
 The following prints are based on designs not created by me, but printed and finished by me.
+
+{{% gallery-container %}}
+
 ![](20240130_162413.jpg)
 ![](20240213_130021.jpg)
 ![](20240214_104203.jpg)
@@ -65,3 +71,5 @@ The following prints are based on designs not created by me, but printed and fin
 ![](20240924_142555.jpg)
 ![](20230731_144724.jpg)
 ![](20240304_114301.jpg)
+
+{{% /gallery-container %}}

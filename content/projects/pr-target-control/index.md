@@ -30,8 +30,12 @@ Seeing the app control a real piece of hardware in real time was super rewarding
 
 ## Screenshots
 
+{{% gallery-container %}}
+
 ![Screenshot 1](target-control-1.jpg)
 
 ![Screenshot 2](target-control-2.jpg)
 
 ![Screenshot 3](target-control-3.jpg)
+
+{{% /gallery-container %}}
