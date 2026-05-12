@@ -33,15 +33,9 @@ Working on this project gave me the chance to dive deeper into technologies I ha
 
 {{< gallery-container >}}
 {{< gallery-image image="final-project-1.png" gallery=1 >}}
-
 {{< gallery-image image="final-project-2.png" gallery=1 >}}
-
 {{< gallery-image image="final-project-3.png" gallery=1 >}}
-
 {{< gallery-image image="final-project-4.png" gallery=1 >}}
-
 {{< gallery-image image="final-project-5.png" gallery=1 >}}
-
 {{< gallery-image image="final-project-6.png" gallery=1 >}}
-
 {{< /gallery-container >}}

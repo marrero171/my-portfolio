@@ -33,43 +33,40 @@ The following printed models were designed by me:
 
 ### Models of my design
 
-{{% gallery-container %}}
-![](IMG-20250502-WA0009.jpg)
-![](periodic_table.jpg)
-![](20231012_160225+1.jpg)
-![](20231014_122138.jpg)
-![](20231014_123610.jpg)
-![](20231108_130520.jpg)
-![](20231109_160859.jpg)
-![](20240207_151637.jpg)
-![](20241126_122632.jpg)
-![](20240228_211851.jpg)
-![](20230729_154609.jpg)
-
-{{% /gallery-container %}}
+{{< gallery-container >}}
+{{< gallery-image image="IMG-20250502-WA0009.jpg" gallery=1 >}}
+{{< gallery-image image="periodic_table.jpg" gallery=1 >}}
+{{< gallery-image image="20231012_160225+1.jpg" gallery=1 >}}
+{{< gallery-image image="20231014_122138.jpg" gallery=1 >}}
+{{< gallery-image image="20231014_123610.jpg" gallery=1 >}}
+{{< gallery-image image="20231108_130520.jpg" gallery=1 >}}
+{{< gallery-image image="20231109_160859.jpg" gallery=1 >}}
+{{< gallery-image image="20240207_151637.jpg" gallery=1 >}}
+{{< gallery-image image="20241126_122632.jpg" gallery=1 >}}
+{{< gallery-image image="20240228_211851.jpg" gallery=1 >}}
+{{< gallery-image image="20230729_154609.jpg" gallery=1 >}}
+{{< /gallery-container >}}
 
 ### Prints of External Designs
 
 The following prints are based on designs not created by me, but printed and finished by me.
 
-{{% gallery-container %}}
-
-![](20240130_162413.jpg)
-![](20240213_130021.jpg)
-![](20240214_104203.jpg)
-![](20240214_150430.jpg)
-![](20240220_104447.jpg)
-![](20240220_104523.jpg)
-![](20240220_154219.jpg)
-![](20240220_154239.jpg)
-![](20240304_153609.jpg)
-![](20240305_150824+1.jpg)
-![](20240306_112201.jpg)
-![](20240306_112541.jpg)
-![](20240307_134246.jpg)
-![](20240920_184150.jpg)
-![](20240924_142555.jpg)
-![](20230731_144724.jpg)
-![](20240304_114301.jpg)
-
-{{% /gallery-container %}}
+{{< gallery-container >}}
+{{< gallery-image image="20240130_162413.jpg" gallery=2 >}}
+{{< gallery-image image="20240213_130021.jpg" gallery=2 >}}
+{{< gallery-image image="20240214_104203.jpg" gallery=2 >}}
+{{< gallery-image image="20240214_150430.jpg" gallery=2 >}}
+{{< gallery-image image="20240220_104447.jpg" gallery=2 >}}
+{{< gallery-image image="20240220_104523.jpg" gallery=2 >}}
+{{< gallery-image image="20240220_154219.jpg" gallery=2 >}}
+{{< gallery-image image="20240220_154239.jpg" gallery=2 >}}
+{{< gallery-image image="20240304_153609.jpg" gallery=2 >}}
+{{< gallery-image image="20240305_150824+1.jpg" gallery=2 >}}
+{{< gallery-image image="20240306_112201.jpg" gallery=2 >}}
+{{< gallery-image image="20240306_112541.jpg" gallery=2 >}}
+{{< gallery-image image="20240307_134246.jpg" gallery=2 >}}
+{{< gallery-image image="20240920_184150.jpg" gallery=2 >}}
+{{< gallery-image image="20240924_142555.jpg" gallery=2 >}}
+{{< gallery-image image="20230731_144724.jpg" gallery=2 >}}
+{{< gallery-image image="20240304_114301.jpg" gallery=2 >}}
+{{< /gallery-container >}}

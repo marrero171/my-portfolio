@@ -31,11 +31,7 @@ Seeing the app control a real piece of hardware in real time was super rewarding
 ## Screenshots
 
 {{< gallery-container >}}
-
 {{< gallery-image image=target-control-1.jpg gallery=1 >}}
-
 {{< gallery-image image=target-control-2.jpg gallery=1 >}}
-
 {{< gallery-image image=target-control-3.jpg gallery=1 >}}
-
 {{< /gallery-container >}}
