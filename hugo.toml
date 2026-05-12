@@ -47,9 +47,6 @@ title = 'Francisco Marrero'
     weight = 6
 
 [params]
-  # Choose the color shown when hyperlinks are hovered over
-  # accentColor = '#FF4D4D'
-  accentColor = '#32CD32'
 
   # Inject arbitrary HTML via the <head> tag
   # Best used for importing custom JavaScript, CSS, or analytics
@@ -69,8 +66,6 @@ title = 'Francisco Marrero'
     {name = 'linkedin', url = 'https://www.linkedin.com/in/francisco-marrero-a09358207/'},
     {name = 'email', url = 'mailto:francisco@franciscomarrero.dev'},
   ]
-
-
 
   # Footer text (i.e. author/project name)
   footer = 'Francisco Marrero'
