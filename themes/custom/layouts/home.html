@@ -18,7 +18,7 @@
     <div class="home-project-section">
     <h2>Top Projects</h2>
     {{ $sectionPages := where .Site.RegularPages "Section" "projects" }}
-    {{ $filteredPages := where $sectionPages "Params.favoriteProject" true }}
+    {{ $filteredPages := (where $sectionPages "Params.favoriteProject" true).ByWeight }}
 
     {{ range $filteredPages }}
         <div class="project-card"> 

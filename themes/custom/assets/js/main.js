@@ -13,6 +13,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Configure lightbox
     lightbox.option({
       'resizeDuration': 100,
+      'imageFadeDuration': 250,
       'wrapAround': true
     })
 

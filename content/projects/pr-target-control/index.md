@@ -5,6 +5,7 @@ showTableOfContents: true
 title: "PR Target Control"
 type: "page"
 favoriteProject: true
+weight: 2
 image: "target-control-1.jpg"
 ---
 

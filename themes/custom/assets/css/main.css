@@ -197,9 +197,8 @@ img {
   text-shadow: 0px 0px 10px #a6e3a1;
 }
 
-/* TODO: Make gallery container default to 1 cloumn when mobile */
 .gallery-container {
-  columns: 2;
+  columns: 15em;
   background: #181825;
   border-radius: 1rem;
   padding: 2rem;
@@ -209,64 +208,22 @@ img {
   display: contents;
 }
 
+.gallery-container a {
+  display: block;
+}
+
 .gallery-container img {
   transition: 0.25s ease all;
-  width: calc(100% - 4rem);
   border-radius: 1rem;
   outline: #313244 solid 2px;
   box-shadow: 0px 0px 10px #a6e3a1;
-  display: block;
-  break-inside: avoid;
-  margin: 0 2rem 1rem 2rem;
+  margin-bottom: 1rem;
+  max-width: 20em;
 }
 
 .gallery-container img:hover {
   scale: 1.01;
   box-shadow: 0px 0px 40px #a6e3a1;
-}
-
-/*
-#overlay {
-  position: fixed;
-  display: none;
-  backdrop-filter: blur(1px);
-  opacity: 0;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: rgba(0,0,0,0.5);
-  z-index: 5;
-  cursor: pointer;
-  align-items: center;
-  justify-content: center;
-  
-  transition: opacity 0.5s ease, display 0.5s ease;
-  transition-behavior: allow-discrete; 
-}
-
-#overlay.active {
-  display: flex;
-  opacity: 1;
-  backdrop-filter: blur(10px);
-}
-
-@starting-style {
-  #overlay.active {
-    opacity: 0;
-    backdrop-filter: blur(1px);
-  }
-}
-
-#overlay-img {
-  max-height: 95vh;
-  max-width: 95vw;
-  object-fit: contain;
-}
-*/
-
-.lb-container {
-  outline-color: #a6e3a1;
 }
 
 .gk-social-icons {
@@ -306,4 +263,27 @@ img {
   transition: fill 0.25s ease;
 }
 
+.game-container {
+  display: flex;
+  flex-wrap: wrap;
+}
 
+.gallery-game {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+  break-inside: avoid;
+  width: 25em;
+  align-items: center;
+  text-align: center;
+}
+
+.gallery-game a {
+  display: flex;
+  justify-content: center;
+}
+
+.gallery-game img {
+  margin: 0;
+  width: 100%;
+}

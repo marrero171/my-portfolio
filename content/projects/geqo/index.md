@@ -6,6 +6,7 @@ showTableOfContents: true
 title: "Godot Environment Query Orchestrator (GEQO)"
 type: "page"
 favoriteProject: true
+weight: 1
 ---
 
 Date started: Oct 30, 2025
