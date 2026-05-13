@@ -30,8 +30,15 @@
 
 <!-- SEO canonicals: helps Google understand your site better when using marketing campaign tagging etc -->
 <link rel="canonical" href="{{ .Permalink }}">
-{{ partialCached "head/css.html" . }}
-{{ partialCached "head/js.html" . }}
+
+{{ $cssNormalize := resources.Get "css/normalize.min.css" }}
+<link rel="stylesheet" type="text/css" href="{{ $cssNormalize.RelPermalink }}" media="print">
+
+{{ $cssMain := resources.Get "css/main.css" | minify }}
+<link rel="stylesheet" type="text/css" href="{{ $cssMain.RelPermalink }}">
+
+{{ $jsBundle := resources.Match "js/**.js" | resources.Concat "js/bundle.js" | minify | resources.Fingerprint "sha256" }}
+<script src="{{ $jsBundle.RelPermalink }}" integrity="{{ $jsBundle.Data.Integrity }}"></script>
 
 <!-- Option for user to inject custom html -->
 {{ if .Site.Params.CustomHeadHTML }}
