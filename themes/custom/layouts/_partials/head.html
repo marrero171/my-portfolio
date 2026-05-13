@@ -40,6 +40,17 @@
 {{ $jsBundle := resources.Match "js/**.js" | resources.Concat "js/bundle.js" | minify | resources.Fingerprint "sha256" }}
 <script src="{{ $jsBundle.RelPermalink }}" integrity="{{ $jsBundle.Data.Integrity }}"></script>
 
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap" rel="stylesheet">
+<script>
+  if (!window.ScrollTimeline) {
+    const script = document.createElement('script');
+    script.src = 'https://flackr.github.io/scroll-timeline/dist/scroll-timeline.js';
+    document.head.appendChild(script);
+  }
+</script>
+
 <!-- Option for user to inject custom html -->
 {{ if .Site.Params.CustomHeadHTML }}
 {{ .Site.Params.CustomHeadHTML | safeHTML }}
