@@ -25,15 +25,15 @@
 
 @keyframes breathe {
     0% {
-        scale: 1;
+      transform: scale(1, 1);
         opacity: 1;
     }
     50% {
-        scale: 1.4;
+      transform: scale(1, 1.4);
         opacity: 0.5;
     }
     100% {
-        scale: 1;
+        transform: scale(1, 1);
         opacity: 1;
     }
 }

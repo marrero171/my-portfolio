@@ -10,6 +10,28 @@ window.overlayOff = function() {
 
 */
 document.addEventListener('DOMContentLoaded', () => {
+    feather.replace({ 'stroke-width': 1, width: 20, height: 20 });
+        if (document.querySelector('main#content > .container') !== null &&
+            document.querySelector('main#content > .container').classList.contains('post')) {
+        }
+    
+    // Hide nav-title on mobile when scrolling
+    const navTitle = document.querySelector('.header');
+    let lastScrollY = window.scrollY;
+
+    window.addEventListener("scroll", function() {
+        const isMobile = window.innerWidth <= 1120;
+        if (!isMobile) return;
+
+        if (window.scrollY > lastScrollY && window.scrollY > 10) {
+            navTitle.classList.add('hidden');
+        } else {
+            navTitle.classList.remove('hidden');
+        }
+
+        lastScrollY = window.scrollY;
+    });
+        
     // Configure lightbox
     lightbox.option({
       'resizeDuration': 100,
