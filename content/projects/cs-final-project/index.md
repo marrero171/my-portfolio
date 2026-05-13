@@ -1,16 +1,18 @@
 ---
+title: "Computer Science Final Project"
+image: "final-project-1.png"
 date: 2025-08-26
 lastmod: 2025-08-26
-showTableOfContents: true
-title: "Computer Science Final Project"
 type: "page"
+showTableOfContents: true
+favoriteProject: true
 ---
 
 Date started: Oct 29, 2023
 
-## Introduction
-
 This project was part of my third year at the University of Puerto Rico – Arecibo and served as my final project before graduating. It originally began as a 5-person team effort but later split into two smaller groups. My team focused mainly on the counselor side of the system, with some contributions to the student and admin sections as well. It turned out to be one of the most valuable learning experiences I’ve had during my time at the university.
+
+<!--more-->
 
 ## What is this app for?
 
@@ -29,14 +31,11 @@ Working on this project gave me the chance to dive deeper into technologies I ha
 
 ## Screenshots
 
-![Screenshot 1](/images/projects/cs-final-project/final-project-1.png)
-
-![Screenshot 2](/images/projects/cs-final-project/final-project-2.png)
-
-![Screenshot 3](/images/projects/cs-final-project/final-project-3.png)
-
-![Screenshot 4](/images/projects/cs-final-project/final-project-4.png)
-
-![Screenshot 5](/images/projects/cs-final-project/final-project-5.png)
-
-![Screenshot 6](/images/projects/cs-final-project/final-project-6.png)
+{{< gallery-container >}}
+{{< gallery-image image="final-project-1.png" gallery=1 >}}
+{{< gallery-image image="final-project-2.png" gallery=1 >}}
+{{< gallery-image image="final-project-3.png" gallery=1 >}}
+{{< gallery-image image="final-project-4.png" gallery=1 >}}
+{{< gallery-image image="final-project-5.png" gallery=1 >}}
+{{< gallery-image image="final-project-6.png" gallery=1 >}}
+{{< /gallery-container >}}

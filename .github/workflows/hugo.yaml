@@ -20,7 +20,7 @@ jobs:
     env:
       DART_SASS_VERSION: 1.91.0
       GO_VERSION: 1.25.0
-      HUGO_VERSION: 0.123.0
+      HUGO_VERSION: 0.161.1
       NODE_VERSION: 18.19.1
       TZ: America/Puerto_Rico
     steps:
@@ -75,8 +75,7 @@ jobs:
         with:
           path: ${{ runner.temp }}/hugo_cache
           key: hugo-${{ github.run_id }}
-          restore-keys:
-            hugo-
+          restore-keys: hugo-
       - name: Build the site
         run: |
           hugo \

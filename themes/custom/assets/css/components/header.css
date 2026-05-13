@@ -1,0 +1,38 @@
+.header {
+  backdrop-filter: blur(5px);
+  background-color: #31324481;
+  color: #31324481;
+  height: 50px;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 5;
+  border-color: rgba(0,0,0,0);
+  box-shadow: 0px 5px 5px;
+}
+
+.header li {
+  margin-right: 1rem;
+}
+
+.header ul {
+  display: flex;
+  list-style: none;
+}
+
+.header .nav-title {
+  display: inline-block;
+  height: 100%;
+  line-height: 50px;
+  padding-left: 15px;
+}
+
+.nav-title a {
+  height: 50px;
+}
+
+.header .nav-links {
+  float: right;
+}
+

@@ -4,13 +4,16 @@ lastmod: 2025-08-26
 showTableOfContents: true
 title: "PR Target Control"
 type: "page"
+favoriteProject: true
+weight: 2
+image: "target-control-1.jpg"
 ---
 
 Date started: Aug 10, 2023
 
-## Introduction
-
 I built this app for my uncle to solve a problem at his shooting range. Target control machines are usually very expensive, and without one, someone always had to move the targets by hand. To make training easier, I created an app that connects to a controller over Bluetooth and automatically moves the targets. The app also gives audio instructions, plays beeps, and runs different routines depending on the type of competition.
+
+<!--more-->
 
 ## Things I Learned
 
@@ -28,8 +31,8 @@ Seeing the app control a real piece of hardware in real time was super rewarding
 
 ## Screenshots
 
-![Screenshot 1](/images/projects/pr-target-control/target-control-1.jpg)
-
-![Screenshot 2](/images/projects/pr-target-control/target-control-2.jpg)
-
-![Screenshot 3](/images/projects/pr-target-control/target-control-3.jpg)
+{{< gallery-container >}}
+{{< gallery-image image=target-control-1.jpg gallery=1 >}}
+{{< gallery-image image=target-control-2.jpg gallery=1 >}}
+{{< gallery-image image=target-control-3.jpg gallery=1 >}}
+{{< /gallery-container >}}

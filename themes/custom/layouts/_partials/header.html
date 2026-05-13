@@ -1,0 +1,8 @@
+<header class="header">
+    <div class="nav-title">
+        <a class="nav-brand" href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>
+    </div>
+    <div class="nav-links">
+        {{ partial "menu.html" (dict "menuID" "main" "page" .) }}
+    </div>
+</header>
