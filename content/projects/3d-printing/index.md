@@ -7,7 +7,7 @@ image: "20240307_134246.jpg"
 type: "page"
 ---
 
-This page showcases a selection of my 3D printing projects. I designed models such as the Arecibo Observatory replica, keychains, and a Sphero labyrinth using Fusion 360. For slicing and print preparation, I primarily used OrcaSlicer and Ultimaker Cura.
+This page showcases a selection of my 3D printing projects. I designed models such as the **Arecibo Observatory replica**, keychains, and a Sphero labyrinth using **Fusion 360**. For slicing and print preparation, I primarily used OrcaSlicer and Ultimaker Cura.
 
 <!--more-->
 

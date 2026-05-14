@@ -11,23 +11,23 @@ image: "target-control-1.jpg"
 
 Date started: Aug 10, 2023
 
-I built this app for my uncle to solve a problem at his shooting range. Target control machines are usually very expensive, and without one, someone always had to move the targets by hand. To make training easier, I created an app that connects to a controller over Bluetooth and automatically moves the targets. The app also gives audio instructions, plays beeps, and runs different routines depending on the type of competition.
+I built this app for my uncle to solve a problem at his shooting range. Target control machines are usually very expensive, and without one, someone always had to move the targets by hand. To make training easier, I created an app that **connects to a controller over Bluetooth and automatically moves the targets**. The app also gives audio instructions, plays beeps, and runs different routines depending on the type of competition.
 
 <!--more-->
 
-## Things I Learned
-
-This is actually the second version of the app—the first was made in Java with Android Studio. For this rewrite, I wanted to try something new and went with Flutter and Dart, which also opens the door to cross-platform support in the future.
+This is actually the second version of the app. The first was made in Java with Android Studio. For this rewrite, I wanted to try something new and went with Flutter and Dart, which opens the door to cross-platform support in the future.
 
 Along the way I picked up experience with:
 
-- Bluetooth connections and permissions on modern Android
-- Building and installing APKs
-- Adding localization (English and Spanish)
-- Saving settings in the app
-- Exploring newer Android features like predictive back gestures and stricter permissions
+- **Collaborating with a client** to define requirements and plan application features
+- Designing a mobile application that **communicates with custom hardware over Bluetooth**
+- **Managing Bluetooth permissions** on modern Android devices
+- **Building and deploying** APKs
+- **Adding localization** in English and Spanish
+- Saving **user settings** in the app
+- **Exploring modern Android features** like predictive back gestures and stricter permissions
 
-Seeing the app control a real piece of hardware in real time was super rewarding—it meant no more manual target handling and a smoother training experience overall.
+Seeing the app control a real piece of hardware in real time was super rewarding. It meant no more manual target handling and a smoother training experience overall.
 
 ## Screenshots
 

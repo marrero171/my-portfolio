@@ -49,6 +49,10 @@ a:hover {
   fill: #94e2d5;
 }
 
+strong {
+  color:#a6e3a1;
+}
+
 .btn {
   transition: 0.25s ease all;
   outline: #313244 solid 1px;
@@ -161,7 +165,7 @@ img {
   padding: 2rem;
   animation: reveal ease-in-out both;
   animation-timeline: view();
-  animation-range: entry 5% cover 20%;
+  animation-range: entry 20% cover 30%;
 }
 
 .project-section {
@@ -289,6 +293,10 @@ img {
 .gallery-game img {
   margin: 0;
   width: 100%;
+}
+
+.post-header-section {
+  color: #a6e3a1;
 }
 
 /* For mobile */
