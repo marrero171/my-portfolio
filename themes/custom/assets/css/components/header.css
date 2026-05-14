@@ -78,5 +78,6 @@
   }
   .header ul {
     justify-content: center;
+    padding: 0;
   }
 }
