@@ -299,6 +299,10 @@ img {
   color: #a6e3a1;
 }
 
+.link {
+  text-decoration: underline;
+}
+
 /* For mobile */
 @media screen and (max-width: 1120px) {
   main#content {
